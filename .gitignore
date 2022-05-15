@@ -3,5 +3,6 @@ Lib
 Scripts
 __pycache__
 pyvenv.cfg
-
-TODO.md
+keys.py
+google_client_secret.json
+.vscode
