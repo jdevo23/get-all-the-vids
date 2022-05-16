@@ -270,7 +270,8 @@ def main() -> None:
                 if insert_successful:
                     count += 1
 
-        print(f'Successfully inserted {count} videos into playlist "{title}"')
+        _v = "video" if count == 1 else "videos"
+        print(f'Inserted {count} {_v} into playlist "{title}"')
         return None
     except CustomError as _e:
         print(_e)
